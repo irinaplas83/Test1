@@ -1,23 +1,17 @@
-p {  /* teg selektor*/ 
-    /* color: green; --word*/ 
-    /* color: rgb(240, 67, 8); --rgb*/
-    /* color: rgba(54, 35, 481, 0.1) --rgba*/
-    color: #4A8F3C; 
-    font-size: 20px;
+.main-article {
+  font-size: 30px;
+  color: blue;
+  border: 5px dotted green;
 }
-#paragraf  /* id selector*/
- {
-color: blueviolet;
-font-size: 16px;
+
+.article-header {
 }
-.red-text  /* class selector*/
-{
-   color:red; 
+
+.article-content {
+  color: inherit;
+  border: inherit;
 }
-#heding {
-    color: aqua;
-    font-size: 50px;
-}
-h1, h2, h3 {
-font-size: 100px;
+.article-link {
+  text-decoration: none;
+  color: inherit;
 }

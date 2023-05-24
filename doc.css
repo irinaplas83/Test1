@@ -1,17 +1,47 @@
-.main-article {
-  font-size: 30px;
-  color: blue;
-  border: 5px dotted green;
+.image {
+  box-sizing: border-box;
+  width: 500px;
+  /*borders*/
+
+  border: 6px solid rgb(28, 107, 3);
+  border-top: 6px solid rgb(28, 107, 3);
+  border-right: 6px solid rgb(28, 107, 3);
+
+  /*paddings*/
+
+  /* top, right, bottom, left - вариант 1*/
+  padding: 15px 10px 4px 1px;
+
+
+ /* top, right-left, bottom - вариант 2*/
+  padding: 15px 10px 2px;
+
+
+  /* top-bottom, right-left - вариант 3*/
+  padding: 15px 10px;
+
+  /* all - вариант 4*/
+  padding: 20px;
+
+  /*вариант 5*/
+  padding-top: 10px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+
+  
+
+  /*margins*/
+  /* top, right, bottom, left - вариант 1*/
+  margin: 15px 15px 15px 15px;
+
+  /* top, left-right, bottom - вариант 1*/
+  margin: 20px 10px 15px
+}
+div {
+border: 4px solid blue;
 }
 
-.article-header {
-}
 
-.article-content {
-  color: inherit;
-  border: inherit;
-}
-.article-link {
-  text-decoration: none;
-  color: inherit;
-}
+
+

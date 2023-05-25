@@ -1,14 +1,19 @@
-.image {
-  /*border-radius - округление картинки*/
-  border-radius: 50%;
-  width: 400px;
-  height: 400px;
-  object-fit: cover;/*сохранение пропорций при округлении*/
-  object-position: -180px;/*выравнивание изображения*/
+table, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 20px;
+}
+.grey{
+  background-color: rgb(155, 150, 150);
+}
 
-  /*центровка блочного элемента*/
-  display: block;
-  margin: 0 auto;
-  
-
+  .cell{
+    background-color: white;
+  }
+.b {
+  font-weight: bold;
+}
+.w {
+  background-color: white;
 }

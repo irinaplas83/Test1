@@ -1,19 +1,19 @@
-table, td {
-  border: 2px solid black;
-  border-collapse: collapse;
-  text-align: center;
-  font-size: 20px;
-}
-.grey{
-  background-color: rgb(155, 150, 150);
-}
+.navigation {
 
-  .cell{
-    background-color: white;
-  }
-.b {
-  font-weight: bold;
 }
-.w {
-  background-color: white;
+.link-list li {
+display: inline-block;
+margin-top: 30px;
+}
+.pace-link {
+background-color: rgb(156, 210, 241);
+padding: 10px;
+color: black;
+}
+.pace-link:hover {
+background-color: rgb(199, 212, 80);
+color: rgb(8, 51, 25);
+}
+.pace-link:focus {
+  border: 5px solid rgb(35, 3, 87);
 }

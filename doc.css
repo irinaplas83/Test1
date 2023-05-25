@@ -1,15 +1,26 @@
-.navigation {
-
+li:first-child { /*первый элемент от родителя*/
+  color: #542dbd;
 }
-.link-list li {
-display: inline-block;
-margin-top: 30px;
+li:last-child { /*последний элемент от родителя*/
+  color: #09551c;
 }
-.pace-link {
-background-color: rgb(156, 210, 241);
-padding: 10px;
-color: black;
+li:nth-child(odd) { /*все нечетные элементы*/
+  color: rgb(160, 9, 122);
 }
-.pace-link:active {
-  background-color: orange;
+li:nth-child(even) { /*все четные элементы*/
+  color: rgb(50, 41, 168);
+}
+li:nth-child(5) { /* 5-ый элемент*/
+  color: #09551c;
+}
+/*li:nth-child(n+4) { (все элементы после 3-го)
+  color: aquamarine;
+}*/
+/*li:nth-child(-n+5) {  (только первые 5 элементов)
+color: chocolate;
+}*/
+li:nth-child(3n+1) {/*если нужен каждый з-тий элемент, начиная с первого; 
+  формула Аn+В - где, n - это счетчик позиции, который начинается с нуля,
+   а В - это начальная позиция цикла*/
+color: blue;
 }
